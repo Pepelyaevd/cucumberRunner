@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "C53916 Основная страница справочника пациента",
+    "line": 1,
+    "id": "c53916-основная-страница-справочника-пациента",
+    "tags": [],
+    "uri": "features\\docdocFIrst.feature",
+    "elements": [
+      {
+        "id": "c53916-основная-страница-справочника-пациента;проверка-ссылок-в-блоке-\"справочник-пациента\"",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Проверка ссылок в блоке \"Справочник пациента\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Открыта главная страница сайта \"docdoc.ru/library\"",
+            "match": {
+              "location": "features\\step_definitions\\browser_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8503
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Проверяю ссылки названий направлений специальности, например \"Акушерство\"",
+            "match": {
+              "location": "features\\step_definitions\\browser_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3536
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "попадаю на страницу \"/library/akusherstvo\"",
+            "match": {
+              "location": "features\\step_definitions\\browser_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\step_definitions\\hooks.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

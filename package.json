@@ -1,0 +1,22 @@
+{
+  "name": "testingproject",
+  "version": "1.0.0",
+  "description": "Testing project with Cucumber Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --format json:./reports/report.json",
+    "report": "./node_modules/.bin/gulp cucumberReports",
+    "res": "npm run test && npm run report"
+  },
+  "author": "Pepelyaev Dmitriy",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.29.0",
+    "cucumber": "^3.0.6",
+    "selenium-webdriver": "^3.4.0",
+    "cucumber-html-reporter": "^2.0.3",
+    "gulp": "^3.9.1",
+    "webdriverio": "^4.8.0",
+    "chai": "^4.1.2"
+  }
+}
