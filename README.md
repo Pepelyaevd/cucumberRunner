@@ -8,7 +8,7 @@ Cucumber runner
 
 ## Quick start
 
-1. Clone the git repo — `https://github.com/Pepelyaevd/docdocTestingProject.git`
+1. Clone the git repo — `https://github.com/Pepelyaevd/cucumberRunner.git`
 
 2. Install the dependencies (`npm install`)
 
